@@ -2,7 +2,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/username/repository-name"
+            "url": "https://github.com/Elghin/ipatente"
         }
     ],
     "name": "vendor/ipatente",
