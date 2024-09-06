@@ -1,23 +1,28 @@
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Elghin/ipatente"
-        }
-    ],
     "name": "vendor/ipatente",
     "description": "Un pacchetto CRM per Filament 3",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0|^9.0",
+        "filament/filament": "^3.0"  // Specifica la versione di Filament 3 richiesta
+    },
     "autoload": {
         "psr-4": {
             "Vendor\\IPatente_pkg\\": "src/"
         }
     },
-    
     "extra": {
         "laravel": {
             "providers": [
                 "Vendor\\IPatente\\IPatentePackageServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Elghin/ipatente"
+        }
+    ]
 }
