@@ -1,0 +1,16 @@
+{
+    "name": "vendor/ipatente",
+    "description": "Un pacchetto CRM per Filament 3",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\IPatente_pkg\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\IPatente\\IPatentePackageServiceProvider"
+            ]
+        }
+    }
+}
