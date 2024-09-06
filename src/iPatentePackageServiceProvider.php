@@ -24,7 +24,11 @@ class IPatentePackageServiceProvider extends ServiceProvider
         $this->registerPolicies();
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-
+        /*
+        $this->publishes([
+            __DIR__.'/../database/migrations' => database_path('migrations') // cartella database principale
+        ], 'migrations');
+        */
         Resource::register([
             \Vendor\IPatente\Resources\IPatenteResource::class,
         ]);
