@@ -3,9 +3,9 @@
     "description": "Un pacchetto CRM per Filament 3",
     "type": "library",
     "require": {
-        "php": "^8.2",
+        "php": "^8.0",
         "laravel/framework": "^10.0",
-        "filament/filament": "^3.0" 
+        "filament/filament": "^2.0" 
     },
     "autoload": {
         "psr-4": {
